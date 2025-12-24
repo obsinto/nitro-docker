@@ -13,3 +13,6 @@
 [submodule "nitro/nitro-assets"]
 	path = nitro/nitro-assets
 	url = https://git.krews.org/nitro/default-assets.git
+[submodule "emulator/nitrowebsockets"]
+	path = emulator/nitrowebsockets
+	url = https://git.krews.org/morningstar/nitrowebsockets-for-ms.git
