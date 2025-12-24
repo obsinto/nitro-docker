@@ -3,7 +3,7 @@
 supervisord -c /app/supervisor/supervisord.conf
 
 cd /app/arcturus
-mvn package
+mvn install
 cp /app/config.ini /app/arcturus/target/config.ini
 
 # Compilar plugin NitroWebSocket localmente
